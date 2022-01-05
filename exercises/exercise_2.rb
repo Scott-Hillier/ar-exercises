@@ -8,6 +8,3 @@ puts "----------"
 @store1 = Store.first
 @store2 = Store.find_by(id: 2)
 @store1.name = "newBurnaby"
-
-puts @store1.name
-puts @store2.name
